@@ -4,8 +4,10 @@ import random
 
 def masukan():
 #Tombol kendaraan, dipilih oleh pengguna
-    pil = int('Silahkan pilih kendaraan: ')
+    print('Silahkan pilih kendaraan')
     print('1. Motor              2. Mobil')
+    print('')
+    pil = int(input())
 #Selesai bagian pengguna
 
 #Bagian petugas
