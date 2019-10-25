@@ -19,7 +19,7 @@ def masukan():
     if(pil == 1): plat = 'M'.join #M untuk Motor
     if(pil == 2): plat = 'C'.join #C untuk Mobil
     waktu = time.localtime()      #Waktu komputer
-    kode = plat + str(waktu.tm_hour) + str(waktu.tm_min) + str(waktu.tm_sec) 
+    kode = plat + str(waktu.tm_yday) str(waktu.tm_hour) + str(waktu.tm_min) + str(waktu.tm_sec) 
     #Selesai Generate
     print('Tiket parkir anda: ')
     print(kode) #Nanti kodenya  dienkripsi dalam QR code, asumsikan ada program yang mengubah string
